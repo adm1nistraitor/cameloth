@@ -1,0 +1,44 @@
+/* see https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.containerX {
+    display: flex;
+    flex-flow: row wrap; /* we'll wrap */
+}
+
+.headerX, .blogX, .sidebarX, .footerX {
+    flex: 1 100%;
+}
+
+.headerX {
+    background: #f0f080;
+    text-align: center;
+}
+
+.sidebarX {
+    background: #80f0f0;
+    padding: 10px;
+}
+
+.footerX {
+    background: #f080f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.blogX {
+    background: #80f080;
+    padding: 10px;
+}
+
+/* medium screen */
+@media all and (min-width: 600px) {
+    /* if screen > 600px sidebar appears alongside blog getting 1/3rd of space */
+  .blogX { flex: 2 0px; }
+  .sidebarX { flex: 1 0px; }
+}
+
+/* Large screens */
+@media all and (min-width: 800px) {
+  /* On bigger screens, sidebar now only gets 1/4 of space */
+  .blogX { flex: 3 0px; }
+  .sidebarX { flex: 1 0px; }
+}

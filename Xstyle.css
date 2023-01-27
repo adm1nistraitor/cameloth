@@ -1,32 +1,32 @@
 /* see https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-.containerX {
+.container {
     display: flex;
     flex-flow: row wrap; /* we'll wrap */
 }
 
-.headerX, .blogX, .sidebarX, .footerX {
+.header, .blog, .sidebar, .footer {
     flex: 1 100%;
 }
 
-.headerX {
+.header {
     background: #f0f080;
     text-align: center;
 }
 
-.sidebarX {
+.sidebar {
     background: #80f0f0;
-    padding: 10px;
+    padding: 2px;
 }
 
-.footerX {
+.footer {
     background: #f080f0;
-    padding: 10px;
+    padding: 2px;
     text-align: center;
 }
 
-.blogX {
+.blog {
     background: #80f080;
-    padding: 10px;
+    padding: 2px;
 }
 
 /* medium screen */

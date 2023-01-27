@@ -15,18 +15,18 @@
 
 .sidebar {
     background: #80f0f0;
-    padding: 2px;
+    padding: 5px;
 }
 
 .footer {
     background: #f080f0;
-    padding: 2px;
+    padding: 5px;
     text-align: center;
 }
 
 .blog {
     background: #80f080;
-    padding: 2px;
+    padding: 5px;
 }
 
 /* medium screen */

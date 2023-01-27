@@ -1,5 +1,6 @@
 /* see https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 .container {
+    background: none;
     display: flex;
     flex-flow: row wrap; /* we'll wrap */
 }
@@ -15,18 +16,18 @@
 
 .sidebar {
     background: none;
-    padding: 5px;
+    padding: 10px;
 }
 
 .footer {
     background: none;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
 }
 
 .blog {
     background: none;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* medium screen */

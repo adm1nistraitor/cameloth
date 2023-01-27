@@ -9,17 +9,17 @@
 }
 
 .header {
-    background: #f0f080;
+    background: none;
     text-align: center;
 }
 
 .sidebar {
-    background: #80f0f0;
+    background: none;
     padding: 10px;
 }
 
 .footer {
-    background: #f080f0;
+    background: none;
     padding: 10px;
     text-align: center;
 }

